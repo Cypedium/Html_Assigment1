@@ -1,0 +1,9 @@
+body {
+    color: lightgray;
+}
+.goldenText {
+color: goldenrod;
+}
+#textid {
+background-color: rgb(131, 141, 131);
+}
