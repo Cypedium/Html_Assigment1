@@ -1,9 +1,112 @@
 body {
-    color: lightgray;
+    color: black;
+    width: 1024px;
+    align-content: center;
+    border: 0px solid black;
+    border-width: 0px 0px 0px 1px;
+    background-color: white;
+    margin: 0px auto;
+  
 }
-.goldenText {
+body > p {
+    width: 550px;
+    padding: 8px 10px;
+}
+section {
+    width: 300px;
+    background-color: lightslategray;
+}
+
+/*.goldenText {
 color: goldenrod;
-}
+}*/
 #textid {
-background-color: rgb(131, 141, 131);
+background-color: white;
 }
+h1 {
+    height: 32px;
+    width: 100%;
+  background-color: orange;
+  border: 0px solid black;
+  border-width: 1px 1px 1px 0px;
+  padding: 12px 10px;
+  text-align: start;
+  vertical-align: middle;
+}
+h2 {
+    padding: 2px 0px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+nav {
+    position: absolute;
+    top: 21px;
+    left: 220px;
+  
+    
+    height: 40px;
+    width: 334px;
+   
+    
+    border: 0px solid black;
+    border-width: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0px 4px;
+    vertical-align: middle;
+}
+nav a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: bold;
+    width: 100px;
+    height: 16px;
+    border: 0px solid black;
+    border-width: 1px 1px 1px 0px;
+    margin: 0;
+    text-align: center;
+    padding: 20px 5px;
+    
+}
+span {
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+    padding: 12px 10px;
+}
+aside {
+    background-color: green;
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    left: 674px;
+    top: 78px;
+    border: 0px solid black;
+    border-width: 1px 1px 1px 1px;
+    padding: 4px 14px;
+}
+a {
+    width: 100px;
+}
+
+  li a {
+    float: left;
+  }
+  footer {
+      width: 100%;
+      background-color: blueviolet;
+      height: 40px;
+      padding: 12px 10px;
+  }
