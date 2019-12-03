@@ -1,38 +1,78 @@
 body {
     color: black;
-    width: 1024px;
+    width: 1022px;
     align-content: center;
-    border: 0px solid black;
-    border-width: 0px 0px 0px 1px;
+    
     background-color: white;
-    margin: 0px auto;
-  
-}
-body > p {
-    width: 550px;
-    padding: 8px 10px;
-}
-section {
-    width: 300px;
-    background-color: lightslategray;
+    margin: 0px auto; 
 }
 
-/*.goldenText {
-color: goldenrod;
-}*/
-#textid {
-background-color: white;
-}
-h1 {
-    height: 32px;
+header{
     width: 100%;
-  background-color: orange;
-  border: 0px solid black;
-  border-width: 1px 1px 1px 0px;
-  padding: 12px 10px;
-  text-align: start;
-  vertical-align: middle;
+    height: 58px;
+    border: 0px solid black;
+    border-width: 1px 1px 0px 1px;
+    background-color: orange;
+    text-align: start;
+    vertical-align: middle;
 }
+
+h1 {
+    position: absolute;
+    top: 1px;
+    left: 130px;
+    width: 334px;
+    height: 100%;
+    margin: 0;
+    padding: 10px 5px;
+    
+}
+
+section {
+    position: absolute;
+    top: 58px;
+    width: 70%;
+    padding: 2px 10px;
+    height:  670px;
+    background-color: lightslategray;
+    border: 0px solid black;
+    border-width: 1px 0px 0px 1px;
+    
+}
+
+section > article {
+    background-color: rebeccapurple;
+    height: 200px;
+}
+section > p {
+    width: 86%;
+    background-color: rebeccapurple;
+    padding: 0px 0px;
+}
+
+article > span {
+    position: absolute;
+    top: 182px;
+    left: 394px;
+    height: 407px;
+    float: left;
+    width: 350px;
+    background-color: rebeccapurple;
+    padding: 4px 14px; 
+}
+article > span > p {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 350px;
+    background-color: rebeccapurple;
+    padding: 4px 10px;
+}
+
+article {
+    height: 15px;
+}
+
 h2 {
     padding: 2px 0px;
 }
@@ -47,33 +87,27 @@ nav > ul {
 
 nav {
     position: absolute;
-    top: 21px;
-    left: 220px;
-  
-    
-    height: 40px;
+    top: 1px;
+    left: 350px;
     width: 334px;
-   
-    
-    border: 0px solid black;
-    border-width: 0px 0px 0px 0px;
+    height: 100%;
     margin: 0;
-    padding: 0px 4px;
-    vertical-align: middle;
+    padding: 0px 0px;
+    
 }
 nav a {
     display: block;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     font-style: bold;
     width: 100px;
-    height: 16px;
+    
     border: 0px solid black;
-    border-width: 1px 1px 1px 0px;
+    border-width: 0px 1px 0px 0px;
     margin: 0;
     text-align: center;
-    padding: 20px 5px;
+    padding: 19px 5px;
     
 }
 span {
@@ -82,31 +116,59 @@ span {
     padding: 0;
 
 }
-
-section {
-    padding: 12px 10px;
+article {
+    width: 35%;
+    padding: 4px 10px;
 }
+
+
 aside {
     background-color: green;
     position: absolute;
-    width: 350px;
-    height: 100%;
-    left: 674px;
-    top: 78px;
+    width: 220px;
+    height: 672px;
+    left: 916px;
+    top: 58px;
     border: 0px solid black;
-    border-width: 1px 1px 1px 1px;
-    padding: 4px 14px;
+    border-width: 1px 1px 0px 1px;
+    padding: 2px 4px;
+    overflow: auto;
+    
 }
+
+aside > h2 {
+    
+    padding: 2px 6px;
+    
+}
+
 a {
     width: 100px;
 }
 
-  li a {
+li a {
     float: left;
+}
+
+footer {
+    position: absolute;
+    top: 700px;
+    float: left;
+    width: 1014px;
+    background-color: yellowgreen;
+    
+    border: 0px solid black;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px 4px;
   }
-  footer {
-      width: 100%;
-      background-color: blueviolet;
-      height: 40px;
-      padding: 12px 10px;
+  img {
+    text-align: center;
+    padding: 4px 10px;
+  }
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
   }
